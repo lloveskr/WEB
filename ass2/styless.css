@@ -1,0 +1,92 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #b8d8ef;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #186ab4;
+    color: #F5F7F8;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    width: 800px;
+}
+
+.hobby {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hobby-image {
+    transition: transform 0.3s ease-in-out;
+}
+
+.hobby-image:hover {
+    transform: scale(1.2);
+}
+
+
+h2 {
+    color: #333;
+    text-align: center;
+    background-color: #f9943b;
+}
+
+#bio p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+
+table {
+    width: 100%;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 2px #f9943b;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    background-color: #f8e3c4;
+}
+
+th {
+    background-color:#f9943b;
+}
+
+footer {
+    background-color:#186ab4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #f0f0f0;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    background-color: #005bb5;
+}
+
+/* Pseudo element смайлик */
+h2::before {
+    content: "\2605"; /* Unicode for the star character */
+    color: yellow;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
